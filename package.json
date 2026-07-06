@@ -29,12 +29,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/PETERGS27/YaGamesMCP.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/PETERGS27/YaGamesMCP/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/PETERGS27/YaGamesMCP#readme",
   "engines": {
     "node": ">=18"
   },
