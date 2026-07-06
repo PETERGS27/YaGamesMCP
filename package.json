@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "MCP server for the Yandex Games platform — search catalog, manage game drafts, upload builds, and publish games",
   "license": "MIT",
-  "author": "",
+  "author": "PETERGS27 <p.gusev777@protonmail.com>",
   "type": "module",
   "bin": {
     "yagames-mcp": "./build/index.js"
