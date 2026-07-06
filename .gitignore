@@ -1,0 +1,17 @@
+node_modules/
+build/
+*.tsbuildinfo
+
+# Env files with credentials
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

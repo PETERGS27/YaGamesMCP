@@ -1,0 +1,48 @@
+{
+  "name": "yagames-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the Yandex Games platform — search catalog, manage game drafts, upload builds, and publish games",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "bin": {
+    "yagames-mcp": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "yandex-games",
+    "yandex",
+    "games",
+    "catalog",
+    "publisher",
+    "game-development"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  }
+}
