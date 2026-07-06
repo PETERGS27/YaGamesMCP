@@ -72,19 +72,18 @@ export YAGAMES_CSRF_TOKEN="your_csrf_token_value"
 
 ### Usage with opencode
 
-Add to `~/.config/opencode/opencode.json`:
+Add to your project's `opencode.json` or global `~/.config/opencode/opencode.json`:
 
 ```json
 {
   "mcp": {
-    "servers": {
-      "yagames-mcp": {
-        "command": "node",
-        "args": ["/path/to/yagames-mcp/build/index.js"],
-        "env": {
-          "YAGAMES_SESSION_COOKIE": "your_session_id",
-          "YAGAMES_CSRF_TOKEN": "your_csrf_token"
-        }
+    "yagames-mcp": {
+      "type": "local",
+      "command": ["node", "/path/to/yagames-mcp/build/index.js"],
+      "enabled": true,
+      "env": {
+        "YAGAMES_SESSION_COOKIE": "your_session_id",
+        "YAGAMES_CSRF_TOKEN": "your_csrf_token"
       }
     }
   }
